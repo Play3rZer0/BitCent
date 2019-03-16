@@ -1,6 +1,8 @@
 #command to mine transaction
 
-curl localhost:5000/mine
+curl <host>:5000/mine
+
+The <host> is the IP address or DNS resolved name of the BitCent node
 
 #command to create a transaction
 
