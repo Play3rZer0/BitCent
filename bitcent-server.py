@@ -186,4 +186,5 @@ def mine():
       "hash": last_block_hash
   }) + "\n"
 
+#This sets the IP address of the node to it's public IP
 node.run(host='0.0.0.0')
