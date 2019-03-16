@@ -1,0 +1,18 @@
+#command to mine transaction
+
+curl localhost:5000/mine
+
+#command to create a transaction
+
+curl "<ip_address:port>/txion" \
+     -H "Content-Type: application/json" \
+     -d '{"from": “<sender>”, "to”:”<recipient”, "amount": <value>}'
+
+ip_address:port 
+ex: 192.168.4.12:5000
+
+<sender> 
+ex: public address or string
+
+<recipient>
+ex: public address or string
